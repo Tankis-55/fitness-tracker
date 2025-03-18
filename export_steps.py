@@ -12,10 +12,10 @@ query = "SELECT * FROM steps"
 df = pd.read_sql(query, conn)
 
 df.to_csv("steps_data.csv", index=False, encoding="utf-8")
-print("✅ The data is saved in steps_data.csv")
+print("The data is saved in steps_data.csv")
 
 df.to_excel("steps_data.xlsx", index=False, engine="openpyxl")
-print("✅ The data is saved in steps_data.xlsx")
+print("The data is saved in steps_data.xlsx")
 
 
 conn.close()
