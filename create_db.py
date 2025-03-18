@@ -18,7 +18,7 @@ cursor.execute("""
     )
 """)
 
-print("✅ The database and table have been created!")
+print(" The database and table have been created!")
 
 cursor.close()
 conn.close()
