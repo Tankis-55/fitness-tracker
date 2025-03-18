@@ -59,5 +59,5 @@ def fetch_steps():
 df_steps = fetch_steps()
 df_steps.to_csv("google_fit_steps.csv", index=False)
 df_steps.to_excel("google_fit_steps.xlsx", index=False, engine="openpyxl")
-print("✅ The step data is saved!")
+print("The step data is saved!")
 print(df_steps.head())
